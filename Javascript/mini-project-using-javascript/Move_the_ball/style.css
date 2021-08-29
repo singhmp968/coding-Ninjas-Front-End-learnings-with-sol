@@ -1,6 +1,6 @@
 .main-cont{
 	position: relative;
-	height: 100vh;
+	height: 500px;
 	width: 100%;
 
 }
@@ -14,5 +14,4 @@
 	left: 50%;
 	top: 50%;
 	/*margin-top: 200px;*/
-	transition: 0.5s;
 }

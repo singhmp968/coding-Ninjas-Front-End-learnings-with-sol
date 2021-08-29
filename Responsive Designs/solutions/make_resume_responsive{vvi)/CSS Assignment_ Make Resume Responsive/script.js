@@ -244,21 +244,3 @@ for(let i of progressBar){
 }	
 }
 
-/* logic for percentage scroll */
-var scroll_percent_class = document.querySelector('.scroll-percent')
-console.log(scroll_percent_class)
-window.addEventListener('scroll',function() {
-	//console.log('scroll@ aaa')
-	let scrollTOp = window.scrollY;
-	console.log('scrollTOp',scrollTOp);
-	let docHeight = document.body.offsetHeight;
-	console.log('docHeight',docHeight);
-	let winHeight = window.innerHeight;
-	console.log('winHeight',winHeight)
-	let scrollPercent = scrollTOp / (docHeight - winHeight);
-	let scrollPercentRounded = Math.round(scrollPercent *100);
-
-	console.log(scrollPercentRounded)
-	scroll_percent_class.textContent = scrollPercentRounded + "%" + 'viewd'
-})
-
