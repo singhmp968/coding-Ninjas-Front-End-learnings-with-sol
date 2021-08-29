@@ -1,0 +1,38 @@
+@keyframes changeShape{
+    /* from corrspond to 0% state */
+    from{
+        border-radius: 0%;
+    }
+
+/* specificing between the tow state */
+     25%{
+    border-radius:12.5%;
+        }
+
+    50%{
+        border-radius:12.5%;
+        } 
+    /* from corrspond to 100% state */
+
+    to{
+        border-radius:50%;
+    }
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: aquamarine;
+    /* animation: changeShape 1s ease-in-out; */
+   /* making to run 3 times */
+    /* animation: changeShape 1s ease-in-out 3; */
+
+          /* to make animation infnity */
+           /* animation: changeShape 1s ease-in-out infinite; */
+      /*to make  opposite property run smoothly like  then user alternate*/
+      animation: changeShape 1s ease-in-out infinite alternate;
+/* animation-name: ;  animation-delay: ; animation-duration: ;*/
+}

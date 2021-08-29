@@ -1,0 +1,65 @@
+.cube{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 100px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transform:rotateX(25deg) rotateY(-25deg);
+    animation: roundandround 1s infinite alternate;
+
+}
+@keyframes roundandround{
+    from{
+     transform: rotateX(360deg);
+     /*transform: rotateY(360deg);*/
+    }
+    /*to{
+        transform: rotateY(-270deg);
+
+    }*/
+}
+.face{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:20%;
+    left: 20%;
+    transition: all 1s;
+   
+}
+/*front-face*/
+.one{
+    background-color: skyblue;
+     /*z-index: 1; */
+}
+/*left-side face opp to orange*/
+.two{
+    background-color:orange;
+    transform: rotateY(90deg) translateZ(-100px) translateX(-100px);
+}
+/*upper face opp to yellowgreen face*/
+.three{
+    background-color: darkred;
+    transform: rotateX(90deg) translateY(100px) translateZ(100px);
+
+}
+/*downface oppp to darkred*/
+.four{
+     background-color: yellowgreen;
+     transform: rotateX(90deg) translateY(100px) translateZ(-100px);   
+}
+/*side face opp to orange*/
+.five{
+    background-color: purple;
+    transform: rotateY(-90deg) translateZ(-100px) translateX(100px);   
+}
+.six{
+     background-color: black;
+       transform:   translateZ(200px);
+}
+
+/* .one:hover{
+    transform: rotateX(40deg) rotateY(40deg)  translateX(100px) translateY(100px) translateZ(100px); 
+    /* transform:translate3d(2,3,4); */
+/* } */

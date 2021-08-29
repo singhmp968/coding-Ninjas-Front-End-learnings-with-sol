@@ -1,0 +1,35 @@
+@keyframes roundandround{
+    from{
+     transform: rotate(270deg);
+    }
+    to{
+        transform: rotate(-270deg);
+
+    }
+}
+#rotation{
+height: 200px;
+width: 200px;
+background-color:aquamarine;
+position: absolute;
+left:20%;
+top:30%;
+animation: roundandround 1s infinite alternate;
+}
+@keyframes fadeinout{
+    from{
+  opacity: 0;
+    }
+    to{
+    opacity: 1;
+    }
+}
+#fade-in-out{
+    height: 50px;
+    width: 300px;
+    background-color: aliceblue;
+    color:black;
+    position: absolute;
+    
+    animation: fadeinout 0.9s ease infinite alternate; 
+}

@@ -1,0 +1,437 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(image/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+.mb75px{
+    margin-bottom: 75px;
+}
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*Section Classes*/
+
+section {
+    width: 100%;
+    /*height: 75vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+.section-heading {
+	width:auto;
+	padding:20px 10px 10px;
+	font-weight: 400;
+}
+#portfolio span a i{
+	padding: 10px;
+    font-size: 1rem;
+	border: 5px solid red;
+    border-radius: 50%;
+
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+
+/* skills display */
+.skills-display {
+	width: 75%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* done by me */
+/* .skills-progress{
+	background-color: lightgrey;
+	height: 20px;
+	width: 100px;
+	border-radius: 10px 10px;
+} */
+/* .cskil{
+	width:80%;
+	border-radius:10px 0px 0px 10px;
+	background-color: #2857a4;
+	text-align: center;
+	height:100%;
+	font-size: 15px;
+
+} */
+
+/* Ans */
+
+.skills-progress{
+	width: 11rem;
+	height:2.2rem;
+	background-color: lightgrey;
+	border-radius: 0.8rem;
+	box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+	margin: 25px;
+	overflow: hidden;
+}
+.skills-progress > div{
+/* > sign implies that style will apply to direct child of the parent class */
+border-radius: 20px 0px 0px 20px;
+box-shadow: 1px 1px 2px 1px #b9b9b9
+}
+/* .skill-name{
+	height:100%;
+
+} */
+.skill-name span{
+	color:white;
+	font-size:1rem;
+	margin-left: 5px;
+	vertical-align: top;
+
+}
+/* colors */
+.mb-blue{
+	background-color:#2857a4;
+}
+.mb-orange{
+	background-color:orange
+}
+.mb-purple{
+	background-color:purple;
+}
+.mb-green{
+	background-color:green;
+}
+/* % classes */
+.eighty-five-percent{
+width: 85%;
+height:inherit;
+
+}
+
+.ninty-five-percent{
+	width:95%;
+	height:inherit;
+}
+
+.seventy-five-percent{
+	width:75%;
+	height:inherit;
+}
+.sixty-five-percent{
+	width:60%;
+	height:inherit;
+}
+
+/* colors */
+
+/* Portfolio Sections */
+#portfolio_container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+
+}
+.portfolio-image-container{
+max-width: 300px;
+	position: relative;
+	margin: 10px;
+	overflow: hidden;
+	background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.portfolio-image-container img{
+height:100%;
+width:100%;
+}
+.portfolio-details{
+	display: none;
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    background-color: #80808078;
+    color: white;
+}
+
+/* contact setion */
+.con-div{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(45deg, #2437a0, #2d3840);
+}
+.title1 a{
+    display: inline-block;
+    font-size:3rem;
+    text-decoration: none; 
+    color:white; 
+    margin-left: 0.8rem; 
+}
+.title1 a i{
+margin-top: 2rem; 
+
+
+}
+.title1 h1{
+    display: inline-block;
+    vertical-align: top;
+    color:white;
+}
+/* form */
+.form-signup{
+    display: inline-block;
+    width:40%;
+    margin:4rem;
+    text-align: center;
+
+}
+/* .widget{
+border-bottom: 4px solid white;
+ 
+}
+*/
+.form-signup form input{
+    display: block;
+    margin: 4rem;
+    width: 70%;
+    background-color: #2437a0;
+    border: 0px;
+    padding: 10px;
+    border-bottom: 2px solid white; 
+    
+}
+.form-signup form textarea{
+    display:block;
+    margin:4rem;
+    width:70%;
+}
+
+.form-signup form button{
+    background-color:#2437a0;
+    color:white;
+    padding:1rem;
+    margin:auto;
+
+}
+/* contact about Section */
+.contact-about{
+    display: inline-block;
+    width: 40%;
+    color: white;
+}
+.contact-about p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: sans-serif;
+    text-align: justify;
+ }
+ .contact-about a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+ .addcl{
+     display: inline;
+     margin-left: 0.5rem;
+     
+ }
+
+ /* Timeline */
+ .timeline{
+     position: relative;
+     width:75%;
+     height: 600px;
+     border: 2px solid black;
+ }
+ .timeline-box{
+     position: relative;
+     width: 40%;
+     min-width: 150px;
+     min-height: 150px;
+     margin:5px;
+     left:5%;
+
+     border: 2px solid black;
+ }
+/* for altrnate child */
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+
+ /* divider */
+ .timeline-divider{
+    border: 3px dashed #0096fa6b;
+    height: 75%;
+    width:0;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+ }
+
+/* for creating ".* in vertical line*/
+.timeline-box:nth-child(2n+1)::after{
+    content: "";
+    position: absolute;
+    height:0.4rem;
+    width:0.4rem;
+    background-color: red;
+    border-radius:50%;
+    right:-13%;
+    top:35%;
+    z-index: 1;
+
+}
+
+.timeline-box:nth-child(2n)::after{
+    content: "";
+    position: absolute;
+    height:0.4rem;
+    width:0.4rem;
+    background-color: red;
+    border-radius:50%;
+    left:-13%;
+    top:35%;
+    z-index: 1;
+}
+
+
+ /* time line traeller */
+ .timeline-traveller{
+     position: sticky;
+     top:35%;
+     /* to rotate the plane @90degree angle */
+     transform: rotate(90deg);
+     z-index: 2;
+    }
+ 
+ 

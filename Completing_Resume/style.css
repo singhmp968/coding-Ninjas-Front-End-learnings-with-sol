@@ -1,0 +1,64 @@
+#lightbox{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease-in-out;
+}
+
+#content-box {
+height: 30%;
+width:30%;background-color: lightgrey;
+overflow: hidden;
+}
+#lightbox:target {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* p:active{
+    background-color: cyan;
+}
+div a:active{
+    color:red;
+}
+
+div a:visited{
+    color:green;
+} */
+
+
+
+/* div:target{
+    height: 200px;
+    width: 200px;
+ 
+} */
+
+
+/* #div1{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    transition: width 2s;
+}
+
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    transition: width 2s;
+} */
+
+/* #div2{
+
+}
+#lightbox :visited{
+
+} */

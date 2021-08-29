@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top:20%; 
+    left: 20%;
+    background-color: aquamarine;
+    /* transform */
+    /* this will rotate in clock wise direction */
+    /* transform: rotate(120deg); */
+   
+    /* for anti clock wise */
+    /* transform: rotate(-120deg); */
+    /* here we can also use rotateX and rotateY to rotate the values */
+    
+    /* here we can also use scale */
+    /* transform:scale(1.5) */
+    /* transform:scaleX(1.5); */
+    /* transform:scaleY(1.5); */
+    /* can also user horizontal and vertically scale */
+    /* transform:scale(1.5,0.4); */
+    
+    /* translate->specify distance of change */
+    /* transform:translate(100px);  only horizontal*/
+    /* transform:translate(100px,200px); horizantally and vertivally */
+    /* translateX and translateY is also possible */
+    /* we can use % also  */
+
+    /* transition ->it is used to animate the property cjhange over the period of time */
+    /* transition: 1s ease-in-out; */
+    /* applying to particulat property */
+    /* transition:height 1s ease-in-out; */
+    /* if you want to transiction to b happen aftr some time i.e putting dealy  then we can use the below one */
+    /* transition: height 1s ease-in-out 0.5s;   */
+    transition:  1s ease-in-out;
+    /* transition:  1s steps(4,end); */
+
+    }
+div:hover{
+    /* width: 480px;
+    height: 480px; */
+    left:30%;
+    /* transform:scale(1.5) translate(150px); */
+    width: 200px;
+    height: 200px;
+}

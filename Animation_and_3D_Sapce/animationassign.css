@@ -1,0 +1,31 @@
+@keyframes bounceProp{
+    from {
+        /* top: 20%; */
+       transform: translateY(0px);
+    }
+    50%
+    {
+        margin-bottom:20px;
+    }
+
+    to{
+        transform: translateY(-100px);
+
+    }
+   
+
+      
+
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left:30%;
+    top:30%;
+    background-color: aquamarine;
+    /* animation: bounceProp 1s ease-in-out infinite alternate; */
+    animation: bounceProp 0.4s ease-out 10 alternate;
+}
+

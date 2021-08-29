@@ -1,0 +1,101 @@
+
+body{
+	margin:0px;
+}
+#body-header{
+	height:65vh;
+	background-image:url(image/macbook_mouse.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	background-attachment: fixed;
+	
+}
+ .horizontal-li{
+	 list-style: none;
+	padding-left: 0px;
+	}
+.horizontal-li li {
+	display:inline-block;
+	margin:0px 8px 0px 8px;
+}
+.horizontal-li li a{
+		text-decoration: none;
+		color:white;
+		
+	}
+	/* nav menu */
+.nav-menu li a{
+	transition: color 0.5s,border-bottom 5s;
+
+}
+.nav-menu li a:hover{
+		color: lightgray;
+		border-bottom: 1px solid white;
+	}
+.horizontal-li li img{
+height:1.2rem;
+}
+.text-center{
+		text-align:center;
+	}
+	/* for Name */
+#myName{	
+	color:white;
+	margin-top: 20vh;
+}
+/* social icons */
+.social-icons li a i{
+padding:10px;
+font-size: 1rem;
+border-radius: 50%;
+}
+.social-icons li :hover{
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);;
+}
+.social-icons li a i:hover{
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);;
+}
+/* about section */
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#encircleimg{
+	border-radius: 50%;
+	width: 12rem;
+	height:12rem;
+	margin:auto;
+	margin-top: -17vh;
+
+	
+}
+
+/* encircle image */
+#encircleimg img {
+	height: 100%;
+    width: 100%; 
+	/* position: sticky; */
+	border-radius: 50%;
+	border:5px solid white;
+	box-shadow: 0px 0px 6px 4px lightgray;
+	
+}
+/* para section */
+#about p {
+    text-align: justify;
+    color: grey;
+    font-size: 1.1rem;
+    word-spacing: 0.6rem;
+    margin: auto;
+    padding: 10px;
+    margin-top: 3%;
+    width: 70%;
+}
+/* about setcion */
+.text-highlight {
+    color:#2857a4;
+    font-weight: 600;
+}

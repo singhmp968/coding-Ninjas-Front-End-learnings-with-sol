@@ -1,0 +1,28 @@
+
+
+#div1{
+    height: 100px;
+    width: 50%;
+    /*  */
+    min-width: 150px;
+    max-width: 250px;
+    /*  */
+    /* min-height: ; max-height: ; */
+    background-color: cyan;
+    border: 2px solid blue;
+    /* i case when text in p tag is overflow */
+    /* overflow: auto;
+    overflow: visible
+    overflow: hidden;
+    overflow: scroll;
+    */
+    overflow: auto;
+}
+
+/* testing */
+span {
+    display: block;
+    margin: 50px 0;
+    padding: 0;
+    color: red;
+}

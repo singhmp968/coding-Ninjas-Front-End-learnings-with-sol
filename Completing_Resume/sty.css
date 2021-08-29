@@ -1,0 +1,21 @@
+#out-cont{
+    position: fixed;
+    left:0;
+    top: 0;
+    display: flex;
+    height: 0px;
+    width: 0px;
+    justify-content: center;
+    transition: all 2s ease-in-out;
+    
+}
+#out-cont:target{
+height:100%;
+width: 100%;
+}
+#inner-cont{
+    overflow: hidden;
+    height:30%;
+    width:30%;
+    background-color: red;
+}
